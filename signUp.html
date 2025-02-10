@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <script src="script2.js"></script>
-    <title>signUp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Document</title>
 </head>
+
 <body>
     <div class="main">
         <div class="login">
             <div class="logo">
             </div>
-            <input type="text" id="email" placeholder="Phone number, username, or email"/>
-            <input type="password" id="pass" placeholder="password"/>
-            <input type="text" id="fname" placeholder="Full name"/>
-            <input type="text" id="user" placeholder="username"/>
-            <input type="submit" id="log" value="Sign up">
-            <div class="line"><hr/></div>
+            <div class="message">
+            </div>
+            <input type="text" id="email" placeholder="Phone number, username, or email" />
+            <input type="password" id="pass" placeholder="password" />
+            <input type="password" id="cnf_pass" placeholder=" Confirm password" />
+            <input type="text" id="Fullname" placeholder="Full name" />
+            <input type="text" id="username" placeholder="username" />
+            <input type="submit" id="log" value="Sign up" onclick="validate()">
+            <div class="line">
+                <hr/>
+          </div>
         </div>
         <div class="new_acc">
-            <p>Already have an account  <a href="/index.html">Login</a></p>
+            <p>Already have an account <a href="/index.html">Login</a></p>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/3745197fcb.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
